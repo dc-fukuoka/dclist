@@ -1,0 +1,8 @@
+dclist - a simple doubly circularly linked list following linux kernel manner, using struct list_head and container_of().
+
+$ ./a.out this is a test.
+this: 0x19f2018 next: 0x19f2058 prev: 0x19f2118 data: ./a.out
+this: 0x19f2058 next: 0x19f2098 prev: 0x19f2018 data: this
+this: 0x19f2098 next: 0x19f20d8 prev: 0x19f2058 data: is
+this: 0x19f20d8 next: 0x19f2118 prev: 0x19f2098 data: a
+this: 0x19f2118 next: 0x19f2018 prev: 0x19f20d8 data: test.
