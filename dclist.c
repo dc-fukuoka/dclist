@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <stddef.h> /* ofsetof() */
+#include <stddef.h> /* offsetof() */
 
 /* macro function container_of(), copied from linux kernel */
 #define container_of(ptr, type, member) ({				\
